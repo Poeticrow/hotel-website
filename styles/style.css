@@ -138,8 +138,8 @@ footer::before {
   height: 0;
   border-left: 110px solid transparent;
   border-right: 110px solid transparent;
-  border-bottom: 100px solid #14274a;
-  top: -50px;
+  border-bottom: 90px solid #14274a;
+  top: -80px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -177,7 +177,7 @@ footer .container form div span {
 }
 footer .container form div {
   background-color: #e0b973;
-  padding: 1px 1.6em 1px 1px;
+  padding: 1px 1em 1px 1px;
   border-radius: 4px;
   color: #14274a;
 }
@@ -186,9 +186,9 @@ footer .container form div input {
   background-color: #14274a;
   color: #fff;
   padding: 0.8em;
+  width: 80%;
 }
 
 footer .container form div input::placeholder {
   color: #fff;
 }
-
