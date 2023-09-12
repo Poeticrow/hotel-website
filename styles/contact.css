@@ -11,10 +11,9 @@ a {
 
 /* HEADER STYLING */
 header {
-  background-image: url("../images/");
+  background-color: #14274a;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -52,31 +51,13 @@ header nav ul li:hover {
   margin-top: 70px;
 }
 
-.text-container h3 {
-  font-size: 50px;
-  font-family: "Times New Roman", Times, serif;
-  color: white;
-  text-transform: uppercase;
-}
-
 .text-container h1 {
-  font-size: 140px;
-  font-family: "Times New Roman", Times, serif;
+  font-size: 5rem;
+  text-align: center;
+  font-family: sans-serif;
   color: white;
   text-transform: uppercase;
-  line-height: 110px;
-}
-
-.text-container h2 {
-  font-size: 60px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: white;
-  text-transform: uppercase;
-}
-
-.text-container p {
-  color: white;
-  font-size: 20px;
+  padding: 0 0 1.2em 0;
 }
 
 .btn {
@@ -122,6 +103,26 @@ header nav ul li:hover {
 footer {
   background-color: #14274a;
   padding: 1.2em 0;
+}
+footer {
+  position: relative;
+  /* background-color: #3498db; */
+  color: white;
+  text-align: center;
+  /* line-height: 100px; */
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 110px solid transparent;
+  border-right: 110px solid transparent;
+  border-bottom: 100px solid #14274a;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 footer .container {
