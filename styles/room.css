@@ -8,6 +8,12 @@ a {
   text-decoration: none;
   color: #fff;
 }
+/* UTILITY
+ */
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
 
 /* HEADER STYLING */
 header {
@@ -114,11 +120,120 @@ header nav ul li:hover {
   margin-top: 35px;
 }
 
-/* FOOTER STYLING */
-.container {
-  max-width: 90%;
-  margin: 0 auto;
+/* ROOMS */
+main {
+  margin: 3em auto;
+  width: 90%;
 }
+.text_head {
+  color: #14274a;
+  text-align: center;
+  margin: 0 auto;
+  width: 85%;
+}
+.text_head h2 {
+  font-family: Adobe Garamond Pro;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+}
+.text_head p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.outer_box {
+  border: 1px solid #14274a;
+  background: #14274a;
+  margin: 2em 0;
+  border-radius: 5px;
+  max-width: 100%;
+}
+.image_box img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 100%;
+}
+.room_text {
+  background-color: #14274a;
+  text-align: center;
+  padding: 5px 0;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.room-details {
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+  justify-content: space-around;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.box img {
+  height: 51px;
+}
+.box span {
+  color: #14274a;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.price {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: #e0b973;
+  padding: 10px 12px;
+  border-radius: 5px;
+}
+.text_foot {
+  text-align: center;
+  margin-top: 40px;
+}
+.text_foot h2 {
+  font-family: Adobe Garamond Pro;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+  color: #14274a;
+}
+.text_foot p {
+  color: #14274a;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.move {
+  margin: 20px 0;
+}
+
+/* FOOTER STYLING */
+
 footer {
   background-color: #14274a;
   padding: 1.2em 0;
